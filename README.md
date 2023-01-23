@@ -1,6 +1,7 @@
 # Frontend Mentor - QR-Code-Component Solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). <br>
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -33,7 +34,7 @@ Users should be able to:
 
 ### Links
 - Live Site URL: [Website Link - Click Me](https://qr-code-component-three-ecru.vercel.app/)
-- Solution URL: [FrontEndMentor - Link]()
+- Solution URL: [FrontEndMentor - Link](https://www.frontendmentor.io/solutions/qr-code-component-I0u3ok_Odp)
 
 ## My process
 
