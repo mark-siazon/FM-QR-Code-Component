@@ -121,9 +121,10 @@ This code snippets/function, if what I'm proud to accomplished:
 
 <br>
 
-### Next Action (Soon):
+### Next Action (v2):
 - [ ] Implement changes from community feedback
-- [ ] TBA...
+- [ ] Use CSS preprocessor
+- [ ] Built with Svelte
 
 ## Note:
 - I would be happy to recieve comments, criticism, and such that could improve the website:
@@ -133,4 +134,5 @@ This code snippets/function, if what I'm proud to accomplished:
 
 <br>
 
-_Updated Feb 12, 2023_
+_v1: Last Update: Feb 12, 2023_
+_v2: On Progress..._
