@@ -32,7 +32,7 @@ Users should be able to:
 
 | Desktop View | Mobile View |
 |---------|---------|
-| ![](design-finished/Laptop-20230124_061347.png) | ![](design-finished/Mobile-20230124_061628.png) |
+| ![](documentations/design-finished/Laptop-20230124_061347.png) | ![](documentations/design-finished/Mobile-20230124_061628.png) |
 
 ### Links
 - Live Site URL: [Website Link - Click Me](https://qr-code-component-three-ecru.vercel.app/)
@@ -122,9 +122,8 @@ This code snippets/function, if what I'm proud to accomplished:
 <br>
 
 ### Next Action (v2):
-- [ ] Implement changes from community feedback
-- [ ] Use CSS preprocessor
-- [ ] Built with Svelte
+- [x] Implement changes from community feedback
+- [x] Build with Svelte
 
 ## Note:
 - I would be happy to recieve comments, criticism, and such that could improve the website:
