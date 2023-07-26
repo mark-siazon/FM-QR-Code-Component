@@ -1,0 +1,173 @@
+/* Started 1-24-23 4:20 AM */
+/* Finished 1-24-23 6:00 AM */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* - Weights: 400, 700 */
+*{
+--white: hsl(0, 0%, 100%);
+--lightGray: hsl(212, 45%, 89%);
+--grayishBlue: hsl(220, 15%, 55%);
+--darkBlue: hsl(218, 44%, 22%);
+
+font-family: Outfit, sans-serif;
+font-size: 15px;
+}
+
+body,
+main > section, 
+main > section > div:first-child
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+body{
+  background-color: var(--lightGray);
+  min-height: 100vh;
+}
+
+main > section,
+div img{
+border-radius: 11.85px;
+}
+
+main > section{
+  padding: 1rem 0rem;
+  background-color: var(--white);
+  width: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+
+main > section > div:first-child{
+  margin: 0;
+}
+
+div img{
+  max-width: 260px;
+}
+
+div > h1{
+  font-weight: 700;
+  color: var(--darkBlue);
+  padding: 0 0.25rem;
+  margin-top: 1.5rem;
+}
+
+div > p{
+  padding: 0 3.25rem;
+  color: var(--grayishBlue);
+  margin-top: 0;
+}
+
+/********** Media Queries -- Mobile First **********/
+
+/********** Mobile - S **********/
+@media screen and (min-width: 320px){
+  div > h1{
+    font-size: 1.25rem;
+    padding: 0 2rem;
+  }
+  
+  div > p{
+    padding: 0 2rem;
+  }
+}
+
+/********** Mobile - M **********/
+@media screen and (min-width: 375px){
+
+}
+
+/********** Mobile - L **********/
+@media screen and (min-width: 425px){
+
+  div > h1{
+    font-size: 1.4rem;
+    padding: 0 2rem;
+  }
+  
+  div > p{
+    padding: 0 3.25rem;
+  }  
+
+}
+
+/********** Tablet **********/
+@media screen and (min-width: 768px){
+
+  main > section{
+    padding: 1rem 0rem;
+  }
+  
+
+  div > h1{
+    font-size: 1.75rem;
+    padding: 0 2.25rem;
+  }
+  
+  div > p{
+    font-size: 1.2rem;
+    padding: 0 2rem;
+  }
+
+  div img{
+    max-width: 280px;
+  }
+
+}
+
+/********** Laptop **********/
+@media screen and (min-width: 1024px){
+  body{
+    margin: 0;
+  }
+
+  main > section{
+    padding: 1.25rem 0rem;
+    width: 340px;
+    max-width: 20vw;
+  }
+
+}
+
+/********** Desktop **********/
+@media screen and (min-width: 1440px){
+
+
+  main > section{
+    padding: 0.5rem 0rem;
+  }
+
+  div > h1{
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+  }
+  
+  div > p{
+    font-size: 1.05rem;
+    padding: 0 2rem;
+  }
+
+}
+
+/********** 4K **********/
+@media screen and (min-width: 2560px){
+  div > img{
+    margin-top: 10px;
+  }
+
+  div > h1{
+    font-size: 2rem;
+    padding: 0 1.75rem;
+  }
+  
+  div > p{
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  }
+
+}
