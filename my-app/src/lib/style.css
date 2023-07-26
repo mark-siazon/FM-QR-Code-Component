@@ -37,7 +37,8 @@ border-radius: 11.85px;
 main > section{
   padding: 1rem 0rem;
   background-color: var(--white);
-  width: 85vw;
+  width: 300px;
+  min-width: 300px;
   text-align: center;
 }
 
@@ -46,13 +47,13 @@ main > section > div:first-child{
 }
 
 div img{
-  max-width: 87.5%;
+  max-width: 260px;
 }
 
 div > h1{
   font-weight: 700;
   color: var(--darkBlue);
-  padding: 0 2.25rem;
+  padding: 0 0.25rem;
   margin-top: 1.5rem;
 }
 
@@ -66,29 +67,18 @@ div > p{
 
 /********** Mobile - S **********/
 @media screen and (min-width: 320px){
-
-  div > h1{
-    font-size: 1.2rem;
-    padding: 0 1rem;
-  }
-  
-  div > p{
-    padding: 0 1.25rem;
-  }
-
-}
-
-/********** Mobile - M **********/
-@media screen and (min-width: 375px){
-
   div > h1{
     font-size: 1.25rem;
     padding: 0 2rem;
   }
   
   div > p{
-    padding: 0 2.75rem;
+    padding: 0 2rem;
   }
+}
+
+/********** Mobile - M **********/
+@media screen and (min-width: 375px){
 
 }
 
@@ -97,36 +87,35 @@ div > p{
 
   div > h1{
     font-size: 1.4rem;
-    padding: 0 2.5rem;
+    padding: 0 2rem;
   }
   
   div > p{
-    padding: 0 3.5rem;
-  }
+    padding: 0 3.25rem;
+  }  
 
 }
 
 /********** Tablet **********/
 @media screen and (min-width: 768px){
 
-
   main > section{
     padding: 1rem 0rem;
-    width: 50vw;
   }
+  
 
   div > h1{
     font-size: 1.75rem;
-    padding: 0 3.5rem;
+    padding: 0 2.25rem;
   }
   
   div > p{
     font-size: 1.2rem;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 
   div img{
-    max-width: 90%;
+    max-width: 280px;
   }
 
 }
@@ -139,33 +128,18 @@ div > p{
 
   main > section{
     padding: 1.25rem 0rem;
-    width: 20.5vw;
-  }
-
-  div > h1{
-    font-size: 1.15rem;
-    padding: 0 1rem;
-    margin-top: 1.25rem;
-    margin-bottom: 0.75rem;
-  }
-  
-  div > p{
-    font-size: 0.85rem;
-    padding: 0 1rem;
-  }
-
-  div img{
-    max-width: 92.5%;
+    width: 340px;
+    max-width: 20vw;
   }
 
 }
 
 /********** Desktop **********/
 @media screen and (min-width: 1440px){
+
+
   main > section{
     padding: 0.5rem 0rem;
-    width: 550px;
-    max-width: 20vw;
   }
 
   div > h1{
@@ -182,14 +156,17 @@ div > p{
 
 /********** 4K **********/
 @media screen and (min-width: 2560px){
+  div > img{
+    margin-top: 10px;
+  }
 
   div > h1{
-    font-size: 2.55rem;
-    padding: 0 1.5rem;
+    font-size: 2rem;
+    padding: 0 1.75rem;
   }
   
   div > p{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 0 2rem;
   }
 
